@@ -1,0 +1,38 @@
+.moveToRight{
+    position: relative;
+    animation: mymoveleft 1s;
+}
+.moveToLeft{
+    position: relative;
+    animation: mymoveright 1s;
+}
+@keyframes mymoveleft {
+    from {left: -8%;}
+    to {left:0%;}
+    0% { opacity: 0; }
+    100% { opacity: 1;}
+}  
+@keyframes mymoveright {
+    from {right: -8%;}
+    to {right: 0%;}
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+.imgc img{
+    max-width: 240px;
+    max-height: 240px;
+}
+.foot span{
+    font-size: small;
+}
+.foot h5{
+    color:rgb(253, 182, 50);
+}
+.footdiv{
+    background-color:rgb(223, 219, 219) ;
+}
+@media (max-width: 760px){
+    div{
+        text-align: center;
+    }
+}
